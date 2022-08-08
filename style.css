@@ -86,6 +86,11 @@ h1 {
     transition: 2s;
 }
 
+.infoColumn2 {
+    display: flex;
+    flex-direction: column;
+}
+
 .Column2 {
     background-color: hsl(184, 100%, 22%);
     width: 100%;
@@ -124,6 +129,7 @@ h1 {
     margin-top: 0rem;
     margin-bottom: 2rem;
     text-align: justify;
+    font-size: 1rem;
 }
 
 .JobHistory {
@@ -149,8 +155,18 @@ h1 {
         width: 90%;
         height: auto;
         margin: auto;
+    }
 
-}
+    .infoColumn2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Column2 {
+        flex-direction: row;
+    }
+
     .Column1:hover, .Column2:hover, .Column3:hover {
         width: 90%;
         box-shadow: 0px 0px 50px black;
