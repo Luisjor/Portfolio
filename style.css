@@ -12,6 +12,7 @@ h1 {
 #MyLists {
     list-style-type: georgian;
     text-align: left;
+    font-size: 1rem;
 }
 
 #Bienvenida {
